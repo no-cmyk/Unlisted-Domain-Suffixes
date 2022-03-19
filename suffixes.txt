@@ -202,4 +202,5 @@ wiki.np
 works.np
 wtf.np
 xyz.np
+za
 zone.np
