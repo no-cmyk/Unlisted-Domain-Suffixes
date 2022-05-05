@@ -162,6 +162,7 @@ rentals.np
 repair.np
 rest.np
 rocks.np
+ru.com
 services.np
 shiksha.np
 shoes.np
