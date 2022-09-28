@@ -6623,6 +6623,7 @@ rs
 rs.gov.br
 rsvp
 ru
+ru.com
 rubtsovsk.ru
 rugby
 ruhr
