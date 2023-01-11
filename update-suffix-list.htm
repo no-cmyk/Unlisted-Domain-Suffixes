@@ -1,0 +1,143 @@
+<body>
+	<button onclick="getList()">COPY LIST TO CLIPBOARD</button>
+</body>
+<script type="text/javascript">
+	let suffixList = {}
+
+	function retainSuffixList(text) {
+		let validText = []
+		let sanitizedText = []
+		for (let i = 0; i < text.length; i++) {
+			if (text[i].includes('END ICANN DOMAINS')) {
+				break
+			} else if (text[i] !== '' && !text[i].startsWith('/')) {
+				validText.push(text[i].replace(/!|\*\./gi, ''))
+			}
+		}
+		sanitizedText = sanitizeDomains(validText)
+		for (let i = 0; i < sanitizedText.length; i++) {
+			suffixList[sanitizedText[i]] = true
+		}
+		console.log('Suffix list OK')
+		navigator.clipboard.writeText(Object.keys(suffixList).join('\n'))
+	}
+
+/*--- Sanitize URLs ---*/
+/*--- Includes code from github.com/bestiejs/punycode.js (provided under MIT license) ---*/
+/*--- Copyright Mathias Bynens <https://mathiasbynens.be/> ---*/
+
+	function digitToBasic(digit, flag) {
+		return digit + 22 + 75 * (digit < 26) - ((flag != 0) << 5)
+	}
+
+	function adapt(delta, numPoints, firstTime) {
+		let k = 0
+		delta = firstTime ? Math.floor(delta / 700) : delta >> 1
+		delta += Math.floor(delta / numPoints)
+		for (/* no initialization */; delta > 35 * 26 >> 1; k += 36) {
+			delta = Math.floor(delta / 35)
+		}
+		return Math.floor(k + (35 + 1) * delta / (delta + 38))
+	}
+
+	function ucs2decode(string) {
+		const output = []
+		let counter = 0
+		const length = string.length
+		while (counter < length) {
+			const value = string.charCodeAt(counter++)
+			if (value >= 0xD800 && value <= 0xDBFF && counter < length) {
+				const extra = string.charCodeAt(counter++)
+				if ((extra & 0xFC00) == 0xDC00) {
+					output.push(((value & 0x3FF) << 10) + (extra & 0x3FF) + 0x10000)
+				} else {
+					output.push(value)
+					counter--
+				}
+			} else {
+				output.push(value)
+			}
+		}
+		return output
+	}
+
+	function encode(input) {
+		const output = []
+		input = ucs2decode(input)
+		let inputLength = input.length
+		let n = 128
+		let delta = 0
+		let bias = 72
+		for (const currentValue of input) {
+			if (currentValue < 0x80) {
+				output.push(String.fromCharCode(currentValue))
+			}
+		}
+		let basicLength = output.length
+		let handledCPCount = basicLength
+		if (basicLength) {
+			output.push('-')
+		}
+		while (handledCPCount < inputLength) {
+			let m = 2147483647
+			for (const currentValue of input) {
+				if (currentValue >= n && currentValue < m) {
+					m = currentValue
+				}
+			}
+			const handledCPCountPlusOne = handledCPCount + 1
+			if (m - n > Math.floor((2147483647 - delta) / handledCPCountPlusOne)) {
+				return undefined
+			}
+			delta += (m - n) * handledCPCountPlusOne
+			n = m
+			for (const currentValue of input) {
+				if (currentValue < n && ++delta > 2147483647) {
+					return undefined
+				}
+				if (currentValue == n) {
+					let q = delta
+					for (let k = 36; /* no condition */; k += 36) {
+						const t = k <= bias ? 1 : (k >= bias + 26 ? 26 : k - bias)
+						if (q < t) {
+							break
+						}
+						const qMinusT = q - t
+						const baseMinusT = 36 - t
+						output.push(String.fromCharCode(digitToBasic(t + qMinusT % baseMinusT, 0)))
+						q = Math.floor(qMinusT / baseMinusT)
+					}
+					output.push(String.fromCharCode(digitToBasic(q, 0)))
+					bias = adapt(delta, handledCPCountPlusOne, handledCPCount == basicLength)
+					delta = 0
+					++handledCPCount
+				}
+			}
+			++delta
+			++n
+		}
+		return output.join('')
+	}
+
+	function sanitizeDomains(domains) {
+		let sanitizedDomains = []
+		let reg = new RegExp(/[A-Z0-9][A-Z0-9_-]*(\.[A-Z0-9][A-Z0-9_-]*)+/i)
+		for (let i = 0; i < domains.length; i++) {
+			domain = domains[i].replace(/^.*:\/\/|[\/,\:].*$/g, '')
+			let newDomain = []
+			let splitDomain = domain.split('.')
+			for (let j = 0; j < splitDomain.length; j++) {
+				let ascii = /[^\0-\x7E]/.test(splitDomain[j]) ? 'xn--' + encode(splitDomain[j]) : splitDomain[j]
+				newDomain.push(ascii)
+			}
+			sanitizedDomains.push(newDomain.join('.').toLowerCase())
+		}
+		return sanitizedDomains
+	}
+
+	function getList() {
+		fetch('https://raw.githubusercontent.com/publicsuffix/list/master/public_suffix_list.dat')
+			.then((response) => response.text())
+			.then((text) => retainSuffixList(text.split('\n')))
+	}
+</script>
