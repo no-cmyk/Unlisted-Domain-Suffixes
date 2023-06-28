@@ -134,6 +134,7 @@ afamilycompany
 afjord.no
 afl
 africa
+africa.bj
 ag
 ag.it
 aga.niigata.jp
@@ -150,6 +151,7 @@ agric.za
 agriculture.museum
 agrigento.it
 agrinet.tn
+agro.bj
 agro.bo
 agro.pl
 aguni.okinawa.jp
@@ -157,6 +159,7 @@ ah.cn
 ah.no
 ai
 ai.in
+ai.vn
 aibetsu.hokkaido.jp
 aichi.jp
 aid.pl
@@ -274,6 +277,7 @@ andria-trani-barletta.it
 andriabarlettatrani.it
 andriatranibarletta.it
 android
+angiang.vn
 anjo.aichi.jp
 ann-arbor.mi.us
 annaka.gunma.jp
@@ -323,6 +327,7 @@ arboretum.museum
 archaeological.museum
 archaeology.museum
 archi
+architectes.bj
 architecture.museum
 ardal.no
 aremark.no
@@ -412,6 +417,7 @@ associates
 associates.np
 association.aero
 association.museum
+assur.bj
 asti.it
 astrakhan.ru
 astronomy.museum
@@ -457,6 +463,7 @@ avianca
 aviation.museum
 avocat.fr
 avocat.pro
+avocats.bj
 avoues.fr
 aw
 awaji.hyogo.jp
@@ -480,6 +487,10 @@ ba.gov.br
 ba.it
 babia-gora.pl
 baby
+bacgiang.vn
+backan.vn
+baclieu.vn
+bacninh.vn
 badaddja.no
 badajoz.museum
 baghdad.museum
@@ -519,6 +530,7 @@ barefoot
 bargains
 bargains.np
 bari.it
+baria-vungtau.vn
 barletta-andria-trani.it
 barletta-trani-andria.it
 barlettatraniandria.it
@@ -566,6 +578,7 @@ bellevue.museum
 belluno.it
 benevento.it
 bentley
+bentre.vn
 beppu.oita.jp
 berg.no
 bergamo.it
@@ -613,6 +626,10 @@ bill.museum
 bindal.no
 bing
 bingo
+binhdinh.vn
+binhduong.vn
+binhphuoc.vn
+binhthuan.vn
 bio
 bio.br
 bio.np
@@ -805,6 +822,7 @@ caltanissetta.it
 calvinklein
 cam
 cam.it
+camau.vn
 cambridge.museum
 camera
 camera.np
@@ -820,6 +838,8 @@ can.museum
 canada.museum
 cancerresearch
 canon
+cantho.vn
+caobang.vn
 capebreton.museum
 capetown
 capital
@@ -1633,6 +1653,7 @@ co.ba
 co.bb
 co.bd
 co.bi
+co.bj
 co.bw
 co.bz
 co.ca.us
@@ -1811,6 +1832,7 @@ com.bd
 com.be
 com.bh
 com.bi
+com.bj
 com.bm
 com.bn
 com.bo
@@ -2089,8 +2111,11 @@ daigo.ibaraki.jp
 daisen.akita.jp
 daito.osaka.jp
 daiwa.hiroshima.jp
+daklak.vn
+daknong.vn
 dali.museum
 dallas.museum
+danang.vn
 dance
 data
 database.museum
@@ -2150,6 +2175,7 @@ dhl
 diamonds
 diamonds.np
 dielddanuorri.no
+dienbien.vn
 diet
 digital
 din.md
@@ -2181,6 +2207,8 @@ doha
 dolls.museum
 domains
 donetsk.ua
+dongnai.vn
+dongthap.vn
 donna.no
 donostia.museum
 doshi.yamanashi.jp
@@ -2283,8 +2311,10 @@ ecape.school.za
 echizen.fukui.jp
 ecn.br
 eco
+eco.bj
 eco.br
 ecologia.bo
+econo.bj
 economia.bo
 ed.ao
 ed.ci
@@ -2919,6 +2949,7 @@ ggee
 ggf.br
 gh
 gi
+gialai.vn
 giehtavuoatna.no
 giessen.museum
 gift
@@ -3297,7 +3328,10 @@ haebaru.okinawa.jp
 haga.tochigi.jp
 hagebostad.no
 hagi.yamaguchi.jp
+hagiang.vn
 haibara.shizuoka.jp
+haiduong.vn
+haiphong.vn
 hair
 hakata.fukuoka.jp
 hakodate.hokkaido.jp
@@ -3319,6 +3353,7 @@ hamburg.museum
 hammarfeasta.no
 hammerfest.no
 hamura.tokyo.jp
+hanam.vn
 hanamaki.iwate.jp
 hanamigawa.chiba.jp
 hanawa.fukushima.jp
@@ -3328,6 +3363,7 @@ hanggliding.aero
 hangout
 hannan.osaka.jp
 hanno.saitama.jp
+hanoi.vn
 hanyu.saitama.jp
 hapmir.no
 happou.akita.jp
@@ -3344,11 +3380,13 @@ hashima.gifu.jp
 hashimoto.wakayama.jp
 hasuda.saitama.jp
 hasvik.no
+hatinh.vn
 hatogaya.saitama.jp
 hatoyama.saitama.jp
 hatsukaichi.hiroshima.jp
 hattfjelldal.no
 haugesund.no
+haugiang.vn
 haus
 hawaii.museum
 hayakawa.yamanashi.jp
@@ -3479,6 +3517,7 @@ hm.no
 hmg.gb
 hn
 hn.cn
+hoabinh.vn
 hobol.no
 hockey
 hof.no
@@ -3539,6 +3578,7 @@ hu
 hughes
 huissier-justice.fr
 humanities.museum
+hungyen.vn
 hurdal.no
 hurum.no
 hvaler.no
@@ -3579,6 +3619,7 @@ id.ir
 id.lv
 id.ly
 id.us
+id.vn
 ide.kyoto.jp
 idf.il
 idrett.no
@@ -3676,6 +3717,7 @@ info.az
 info.bb
 info.bd
 info.bi
+info.bj
 info.bo
 info.ck
 info.co
@@ -3750,6 +3792,7 @@ investments
 inzai.chiba.jp
 io
 io.in
+io.vn
 ip6.arpa
 ipiranga
 iq
@@ -4142,6 +4185,7 @@ kh
 kh.ua
 khabarovsk.ru
 khakassia.ru
+khanhhoa.vn
 kharkiv.ua
 kharkov.ua
 kherson.ua
@@ -4154,6 +4198,7 @@ kibichuo.okayama.jp
 kids
 kids.museum
 kids.us
+kiengiang.vn
 kiev.ua
 kiho.mie.jp
 kihoku.ehime.jp
@@ -4259,6 +4304,7 @@ kongsvinger.no
 konin.pl
 konskowola.pl
 konsulat.gov.pl
+kontum.vn
 konyvelo.hu
 koori.fukushima.jp
 kopervik.no
@@ -4302,6 +4348,7 @@ kristiansand.no
 kristiansund.no
 krodsherad.no
 krokstadelva.no
+kropyvnytskyi.ua
 krym.ua
 ks.ua
 ks.us
@@ -4397,9 +4444,11 @@ labour.museum
 lacaixa
 ladbrokes
 lahppi.no
+laichau.vn
 lajolla.museum
 lakas.hu
 lamborghini
+lamdong.vn
 lamer
 lanarb.se
 lanbib.se
@@ -4411,8 +4460,10 @@ land
 landes.museum
 landrover
 langevag.no
+langson.vn
 lans.museum
 lanxess
+laocai.vn
 lapy.pl
 laquila.it
 lardal.no
@@ -4575,6 +4626,7 @@ lodz.pl
 loft
 log.br
 logistics.aero
+loisirs.bj
 lol
 lom.it
 lom.no
@@ -4584,6 +4636,7 @@ lomza.pl
 london
 london.museum
 londrina.br
+longan.vn
 loppa.no
 lorenskog.no
 losangeles.museum
@@ -5043,6 +5096,7 @@ moma.museum
 mombetsu.hokkaido.jp
 monash
 money
+money.bj
 money.museum
 monmouth.museum
 monster
@@ -5273,6 +5327,7 @@ nakhodka.ru
 nakijin.okinawa.jp
 naklo.pl
 namdalseid.no
+namdinh.vn
 name
 name.ae
 name.az
@@ -5395,6 +5450,7 @@ net.ba
 net.bb
 net.bd
 net.bh
+net.bj
 net.bm
 net.bn
 net.bo
@@ -5556,6 +5612,7 @@ nf
 nf.ca
 nfl
 ng
+nghean.vn
 ngo
 ngo.co
 ngo.lk
@@ -5587,6 +5644,8 @@ niki.hokkaido.jp
 nikko.tochigi.jp
 nikolaev.ua
 nikon
+ninhbinh.vn
+ninhthuan.vn
 ninja
 ninja.np
 ninohe.iwate.jp
@@ -5789,6 +5848,7 @@ ohira.tochigi.jp
 ohkura.yamagata.jp
 ohtawara.tochigi.jp
 oi.kanagawa.jp
+oia.gov.pl
 oirase.aomori.jp
 oirm.gov.pl
 oishida.yamagata.jp
@@ -5806,6 +5866,7 @@ okaya.nagano.jp
 okayama.jp
 okayama.okayama.jp
 okazaki.aichi.jp
+oke.gov.pl
 okegawa.saitama.jp
 oketo.hokkaido.jp
 oki.fukuoka.jp
@@ -5870,6 +5931,7 @@ onyourside
 ookuwa.nagano.jp
 ooo
 ooshika.nagano.jp
+oow.gov.pl
 open
 openair.museum
 opoczno.pl
@@ -5914,6 +5976,7 @@ org.bb
 org.bd
 org.bh
 org.bi
+org.bj
 org.bm
 org.bn
 org.bo
@@ -6082,6 +6145,7 @@ osakasayama.osaka.jp
 osaki.miyagi.jp
 osakikamijima.hiroshima.jp
 osasco.br
+oschr.gov.pl
 osen.no
 oseto.nagasaki.jp
 oshima.tokyo.jp
@@ -6109,6 +6173,7 @@ otaki.saitama.jp
 otama.fukushima.jp
 otari.nagano.jp
 otaru.hokkaido.jp
+ote.bj
 other.nf
 oto.fukuoka.jp
 otobe.hokkaido.jp
@@ -6235,6 +6300,8 @@ photography
 photography.museum
 photos
 photos.np
+phutho.vn
+phuyen.vn
 physio
 pi.gov.br
 pi.it
@@ -6322,6 +6389,7 @@ pp.se
 ppg.br
 pr
 pr.gov.br
+pr.gov.pl
 pr.it
 pr.us
 pramerica
@@ -6457,6 +6525,11 @@ qld.gov.au
 qpon
 qsi.br
 qsl.br
+quangbinh.vn
+quangnam.vn
+quangngai.vn
+quangninh.vn
+quangtri.vn
 quebec
 quebec.museum
 quest
@@ -6546,6 +6619,8 @@ resistance.museum
 rest
 rest.np
 restaurant
+restaurant.bj
+resto.bj
 review
 reviews
 revista.bo
@@ -7080,6 +7155,7 @@ soccer
 social
 social.np
 society.museum
+soctrang.vn
 sodegaura.chiba.jp
 soeda.fukuoka.jp
 softbank
@@ -7105,6 +7181,7 @@ sondrio.it
 song
 songdalen.no
 soni.nara.jp
+sonla.vn
 sony
 soo.kagoshima.jp
 sor-aurdal.no
@@ -7450,6 +7527,7 @@ tax
 tax.np
 taxi
 taxi.br
+tayninh.vn
 tc
 tc.br
 tci
@@ -7550,14 +7628,20 @@ tf
 tg
 tgory.pl
 th
+thaibinh.vn
+thainguyen.vn
+thanhhoa.vn
+thanhphohochiminh.vn
 thd
 the.br
 theater
 theater.museum
 theatre
+thuathienhue.vn
 tiaa
 tickets
 tienda
+tiengiang.vn
 tiffany
 time.museum
 time.no
@@ -7678,6 +7762,7 @@ total
 tottori.jp
 tottori.tottori.jp
 touch.museum
+tourism.bj
 tourism.pl
 tourism.tn
 tours
@@ -8194,6 +8279,7 @@ travel.tt
 travelchannel
 travelers
 travelersinsurance
+travinh.vn
 trd.br
 tree.museum
 trentin-sud-tirol.it
@@ -8285,6 +8371,7 @@ turystyka.pl
 tuscany.it
 tushu
 tuva.ru
+tuyenquang.vn
 tv
 tv.bb
 tv.bd
@@ -8359,6 +8446,7 @@ unazuki.toyama.jp
 undersea.museum
 unicom
 union.aero
+univ.bj
 univ.sn
 university
 university.museum
@@ -8562,6 +8650,8 @@ villas
 villas.np
 vin
 vindafjord.no
+vinhlong.vn
+vinhphuc.vn
 vinnica.ua
 vinnytsia.ua
 vip
@@ -8705,6 +8795,7 @@ winners
 wios.gov.pl
 witd.gov.pl
 wiw.gov.pl
+wkz.gov.pl
 wlocl.pl
 wloclawek.pl
 wme
@@ -8725,6 +8816,7 @@ ws
 ws.na
 wsa.gov.pl
 wskr.gov.pl
+wsse.gov.pl
 wtc
 wtf
 wtf.np
@@ -9275,6 +9367,7 @@ yawatahama.ehime.jp
 yazu.tottori.jp
 ye
 yekaterinburg.ru
+yenbai.vn
 yk.ca
 ykp
 yn.cn
@@ -9361,6 +9454,7 @@ zoological.museum
 zoology.museum
 zp.gov.pl
 zp.ua
+zpisdn.gov.pl
 zt.ua
 zuerich
 zushi.kanagawa.jp
